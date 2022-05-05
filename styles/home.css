@@ -1,6 +1,6 @@
 #goblins-list {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
 }
 
@@ -10,7 +10,7 @@
     border: 2px solid black;
     border-radius: 50%;
     align-items: center;
-    width: 300px;
+    width: 200px;
     margin: 25px;
 }
 

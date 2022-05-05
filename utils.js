@@ -6,7 +6,7 @@ export function renderGoblins(goblin) {
     h2.textContent = goblin.name;
 
     const h3 = document.createElement('h3');
-    h3.textContent = goblin.hp;
+    h3.textContent = `${goblin.hp} HP`;
 
     const img = document.createElement('img');
     img.src = goblin.img;
