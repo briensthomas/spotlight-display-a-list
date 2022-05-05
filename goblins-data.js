@@ -1,7 +1,12 @@
-export const goblins = [
+export const goblinsArray = [
     {   
-        name: 'Bob', 
+        name: 'Goblin Name', 
         hp: 5, 
-        image: './assets/goblin.png',
+        img: './assets/goblin.png',
+    },
+    {
+        name: 'Scorio',
+        hp: 5,
+        img: './assets/goblin.png',
     }
 ];

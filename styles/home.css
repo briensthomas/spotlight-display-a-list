@@ -1,4 +1,10 @@
-.goblins-list {
+#goblins-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.goblin {
     display: flex;
     flex-direction: column;
     border: 2px solid black;
@@ -8,7 +14,7 @@
     margin: 25px;
 }
 
-.goblins-list img {
+.goblin img {
     width: 100%;
     margin-bottom: 50px;
 }
