@@ -8,7 +8,7 @@ const test = QUnit.test;
 test('test goblin render function', (expect) => {
     //Arrange
     // Set up your arguments and expectations
-    const expected = `<div class="goblin"><h2>Goblin Name</h2><h3>5</h3><img src="./assets/goblin.png"><p>Goblins are the enemy!</p></div>`;
+    const expected = `<div class="goblin"><h2>Bob</h2><h3>5 HP</h3><img src="./assets/goblin.png"><p>Goblins are the enemy!</p></div>`;
     
     //Act <div class="goblins-list">
 
