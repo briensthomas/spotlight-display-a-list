@@ -1,17 +1,17 @@
-export const landscapeArray [
+export const landscapesArray = [
     {   
-        name: forest,
-        image: './assets/forest.jpg',
-        shyEnjoyment: 10/10,
+        name: 'Forest',
+        image: './assets/Forest.jpg',
+        shyEnjoyment: '10/10',
     },
     {
-        name: lake,
-        image: './assets/lake.jpg',
-        shyEnjoyment: 10/10
+        name: 'Lake',
+        image: './assets/Lake.jpg',
+        shyEnjoyment: '10/10',
     },
     {
-        name: beach,
-        image: './assets/beach.jpg',
-        shyEnjoyment: 10/10,
+        name: 'Beach',
+        image: './assets/Beach.jpg',
+        shyEnjoyment: '10/10',
     },
 ];

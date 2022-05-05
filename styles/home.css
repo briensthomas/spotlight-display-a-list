@@ -29,7 +29,7 @@
     font-weight: bold;
 }
 
-#landscape-list {
+#landscapes-list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
