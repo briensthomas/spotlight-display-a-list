@@ -19,12 +19,12 @@
     margin-bottom: 50px;
 }
 
-h2 {
+.goblin h2 {
     display: flex;
     flex-wrap: wrap;
 }
 
-p {
+.goblin p {
     margin: 0%;
     font-weight: bold;
 }
