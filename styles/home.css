@@ -36,7 +36,7 @@
 }
 
 .landscape {
-    width: 250px;
+    width: 200px;
     display: flex;
     flex-direction: column;
     border: 2px solid black;
@@ -48,5 +48,25 @@
 .landscape img {
     width: 100%;
     border-radius: 50%;
-    /* border: solid black; */
+}
+
+#movies-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.movie {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    margin: 25px;
+}
+
+.movie img {
+    width: 100%;
 }
