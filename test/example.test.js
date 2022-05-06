@@ -1,8 +1,9 @@
 // IMPORT MODULES under test here:
 // import { example } from '../example.js';
-import { renderGoblins, renderLandscape } from '../utils.js';
+import { renderGoblins, renderLandscape, renderMovie } from '../utils.js';
 import { goblinsArray } from '../goblins-data.js';
 import { landscapesArray } from '../landscape-data.js';
+import { moviesArray } from '../movie-data.js';
 
 const test = QUnit.test;
 
@@ -30,6 +31,20 @@ test('test landscape render function', (expect) => {
     //Act 
     // Call the function you're testing and set the result to a const
     const actual = renderLandscape(landscapesArray[0]);
+
+    //Expect
+    // Make assertions about what is expected versus the actual result
+    expect.equal(actual.outerHTML, expected);
+});
+
+test('test movie render function with nested array', (expect) => {
+    //Arrange
+    // Set up your arguments and expectations
+    const expected = `<div class="movie"><h2>The Gentlemen</h2><img src="./assets/The-Gentlemen.jpg"><h4 class="genre">Genre: </h4><ul class="genre"><li>Comedy</li><li>Crime</li><li>Drama</li></ul><ul class="actors"><li>Matthew McConaughey, </li><li>Charlie Hunnam, </li><li>Michelle Dockery, </li><li>Jeremy Strong, </li><li>Lyne Renee, </li><li>Colin Farrell </li></ul></div>`;
+    
+    //Act 
+    // Call the function you're testing and set the result to a const
+    const actual = renderMovie(moviesArray[0]);
 
     //Expect
     // Make assertions about what is expected versus the actual result
